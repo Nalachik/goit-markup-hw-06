@@ -209,15 +209,13 @@ img{
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>FOOTER-INDEX-PORTFOLIO */
 .footer {
-  margin-top: 60px;
-  margin-bottom: 60px;
+  padding: 60px 0px;
   background-color: var(--bg-color-one);
 
 }
 /* footer-webstudio */
 .footer-webstudio {
   display: block;
-  padding-top: 60px;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -259,8 +257,7 @@ img{
 }
 
 .footer-contacts-info{
-  padding-bottom: 60px;
-
+  
 }
 /* <<<<<<<<JOIN-LINKS>>>>>>> */
 .join{
