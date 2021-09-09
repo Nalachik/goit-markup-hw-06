@@ -388,6 +388,11 @@
                     </li>
                 </ul>
             </div>
+            <form class="fotter-form">
+                <b class="fotter-form-title">ПОДПИШИТЕСЬ НА РАССЛЫЛКУ</b>
+                <input type="text" name="email" placeholder="E-mail">
+                <button type="button">Подписаться</button>
+            </form>
         </div>
     </footer>
     <!-- modal window -->
@@ -398,6 +403,27 @@
                     <use href="./images/sprite.svg#icon-x-close"></use>
                 </svg>
             </button>
+    
+            <form class="modal-form">
+                <b class="modal-form-title">Оставьте свои данные мы вам перезвоним</b>
+                <label for="name">Имя</label>
+                <input type="text" name="name" id="name">
+    
+                <label for="tel">Телефон</label>
+                <input type="tel" name="tel" id="tel">
+    
+                <label for="email">Почта</label>
+                <input type="text" name="email" id="email">
+    
+                <label for="comment">Комментарий</label>
+                <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Введите текст"></textarea>
+    
+                <input type="checkbox" name="policy" id="policy">
+                <label for="policy">Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a></label>
+                <button type="button">Отправить</button>
+    
+    
+            </form>
         </div>
     </div>
     <script src="./js/modal.js"></script>
