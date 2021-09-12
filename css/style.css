@@ -260,6 +260,10 @@ img{
   
 }
 /* <<<<<<<<JOIN-LINKS>>>>>>> */
+.footer-join{
+  margin-right: 93px;
+}
+
 .join{
   display: flex;
   justify-content: center;
@@ -308,8 +312,42 @@ img{
 .footer-address{
   margin-right: 70px;
 }
+.fotter-form{
+  width: 570px;
+  height: 86px;
+  
+}
+/* <<<<<Fotter-subscribe-form>>>>> */
+.subscribe-title{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--fourth-text-color);
+}
 
+.subscribe-form{
+  display: flex;
+  justify-content: center;
+  
+}
 
+.subscribe-email{
+  width: 358px;
+  height: 50px; 
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+.subscribe-btn{
+  margin-left: 12px;
+  width: 200px;
+  height: 50px;
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
 
 /* THE SAME ELEMENTS ↑ */
 
@@ -763,7 +801,7 @@ img{
   transition:opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
   visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  
+
 }
 
 .modal{
@@ -793,12 +831,12 @@ img{
   border-radius: 50%;
 
 }
-/* .backdrop.is-hidden{
+.backdrop.is-hidden{
   opacity: 0;
   visibility: hidden;
   pointer-events: 0;
   
-} */
+}
 .modal-form{
   display: flex;
   flex-direction: column;

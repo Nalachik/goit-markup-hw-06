@@ -352,7 +352,7 @@
             </ul>
             </div>
 
-            <div class="fotter-join">
+            <div class="footer-join">
             <h3 class="join-links-titel">Присоединяйтесь</h3>
                 <ul class="join-links list join">
                     <li class="join-item">
@@ -388,11 +388,19 @@
                     </li>
                 </ul>
             </div>
-            <form class="fotter-form">
-                <b class="fotter-form-title">ПОДПИШИТЕСЬ НА РАССЛЫЛКУ</b>
-                <input type="text" name="email" placeholder="E-mail">
-                <button type="button">Подписаться</button>
-            </form>
+
+            <div class="footer-subscribe-form"> 
+                <b class="subscribe-title">Подпишытесь на рассылку</b>
+                <form class="subscribe-form">    
+                    <input type="text" name="email" class="subscribe-email" placeholder="E-mail">
+                    <button type="submit" class="subscribe-btn">
+                        Подписаться
+                        <svg class="subcribe-btn-icon" width="24" height="24">
+                            <use href="./images/sprite.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
         </div>
     </footer>
     <!-- modal window -->
