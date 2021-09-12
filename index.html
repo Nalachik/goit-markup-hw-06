@@ -410,7 +410,7 @@
                     <label for="name" class="modal-form-label">Имя</label>
                     <span class="input-wrap">
                         <input class="modal-form-input" type="text" name="name" id="name">
-                        <svg class="modal-form-icon" width="12" heigth="12">
+                        <svg class="modal-form-icon" width="12" height="12">
                             <use href="./images/sprite.svg#icon-name"></use>
                         </svg>
                     </span>
@@ -420,7 +420,7 @@
                     <label for="tel" class="modal-form-label">Телефон</label>
                     <span class="input-wrap">
                         <input class="modal-form-input" type="tel" name="tel" id="tel">
-                        <svg class="modal-form-icon" width="13" heigh="13">
+                        <svg class="modal-form-icon" width="13" height="13">
                             <use href="./images/sprite.svg#icon-phone"></use>
                         </svg>
                     </span>
@@ -430,20 +430,21 @@
                     <label for="email" class="modal-form-label">Почта</label>
                     <span class="input-wrap">
                         <input class="modal-form-input" type="text" name="email" id="email">
-                        <svg class="modal-form-icon" width="15" heigth="12">
+                        <svg class="modal-form-icon" width="15" height="12">
                             <use href="./images/sprite.svg#icon-email"></use>
                         </svg>
                     </span>
                 </div>
-
-                <label for="comment">Комментарий</label>
-                <textarea name="comment" id="comment" rows="10" placeholder="Введите текст"></textarea>
+                <div class="modal-form-field-comment">
+                <label for="comment" class="modal-form-label">Комментарий</label>
+                <textarea name="modal-comment" id="comment" placeholder="Введите текст" class="modal-comment"></textarea>
+                </div>  
 
                 <input type="checkbox" name="policy" id="policy">
                 <label for="policy">Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a></label>
                 <button type="button">Отправить</button>
-    
-    
+                
+       
             </form>
         </div>
     </div>

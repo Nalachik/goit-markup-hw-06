@@ -310,6 +310,7 @@ img{
 }
 
 
+
 /* THE SAME ELEMENTS ↑ */
 
 
@@ -798,6 +799,10 @@ img{
   pointer-events: 0;
   
 } */
+.modal-form{
+  display: flex;
+  flex-direction: column;
+}
 .modal-form-title{
   display: block;
   margin-bottom: 12px;
@@ -808,6 +813,7 @@ img{
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
+
 .modal-form-field{
   margin-bottom: 10px;
 }
@@ -839,7 +845,24 @@ img{
   position: absolute;
   left: 12px;
   top: 50%;
-  transform: translatey(-50%);
- 
-  
+  transform: translateY(-50%);
+}
+
+.modal-comment{
+  width: 100%;
+  height: 96px;
+  padding: 16px 12px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  resize: none;
+}
+.modal-comment::placeholder{
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+.modal-form-field-comment{
+  margin-bottom: 20px;
 }
