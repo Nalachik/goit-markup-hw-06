@@ -848,9 +848,19 @@ img{
   0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;  
 }
-
+.button-icon{
+  display: flex;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  
+  
+}
 .btn-close{
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: 8px;
   right: 8px;
   width: 30px;
@@ -871,6 +881,7 @@ img{
   fill: var(--third-text-color);
   
 }
+
 
 .backdrop.is-hidden{
   opacity: 0;
@@ -1000,6 +1011,10 @@ img{
 }
 .checkbox-link{
   margin-left: 5px;
+  color: var(--third-text-color);  
+}
+.checkbox-link:visited{
+  color: rgb(85, 26, 139);
   
 }
 .checkbox{
