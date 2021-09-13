@@ -201,22 +201,21 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-address">
-                <a class="footer-webstudio link" lang="en" href="index.html">Web<span
-                        class="footer-studio">Studio</span></a>
-                <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
-                <ul class="footer-contacts-info list">
-                    <li>
-                        <a class="footer-mail link" href="mailto:info@example.com">info@example.com</a>
-                    </li>
+            <a class="footer-webstudio link" lang="en" href="index.html">Web<span class="footer-studio">Studio</span></a>
+            <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
+            <ul class="footer-contacts-info list">
+                <li>
+                    <a class="footer-mail link" href="mailto:info@example.com">info@example.com</a>
+                </li>
 
-                    <li>
-                        <a class="footer-tel link" href="tel:+380961111111">+380961111111</a>
-                    </li>
-                </ul>
+                <li>
+                    <a class="footer-tel link" href="tel:+380961111111">+380961111111</a>
+                </li>
+            </ul>
             </div>
 
-            <div class="fotter-join">
-                <h3 class="join-links-titel">Присоединяйтесь</h3>
+            <div class="footer-join">
+            <h3 class="join-links-titel">Присоединяйтесь</h3>
                 <ul class="join-links list join">
                     <li class="join-item">
                         <a href="" class="join-link link">
@@ -242,7 +241,7 @@
                         </a>
                     </li>
 
-                    <li class="join-item">
+                    <li class="join-item"> 
                         <a href="" class="join-link link">
                             <svg class="join-icon" width="20" height="20">
                                 <use href="./images/sprite.svg#icon-linkedin"></use>
@@ -251,11 +250,20 @@
                     </li>
                 </ul>
             </div>
-            <form class="fotter-form">
-                <b class="fotter-form-title">ПОДПИШИТЕСЬ НА РАССЛЫЛКУ</b>
-                <input type="text" name="email" placeholder="E-mail">
-                <button type="button">Подписаться</button>
-            </form>
+
+            <div class="footer-subscribe-form"> 
+                <b class="subscribe-title">Подпишытесь на рассылку</b>
+                <form class="subscribe-form">
+                    <label for="email"></label>    
+                    <input type="text" name="email" class="subscribe-email" placeholder="E-mail">
+                    <button type="submit" class="subscribe-btn">
+                        Подписаться
+                        <svg class="subcribe-btn-icon" width="24" height="24">
+                            <use href="./images/sprite.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
         </div>
     </footer>
 </body>

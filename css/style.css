@@ -319,6 +319,8 @@ img{
 }
 /* <<<<<Fotter-subscribe-form>>>>> */
 .subscribe-title{
+  display: block;
+  margin-bottom: 20px;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -331,23 +333,36 @@ img{
   display: flex;
   justify-content: center;
   
+  
 }
 
 .subscribe-email{
+  padding-left: 16px;
   width: 358px;
   height: 50px; 
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+  background: var(--bg-color-one);
 }
+
 .subscribe-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-left: 12px;
   width: 200px;
   height: 50px;
   background: #2196F3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  color: var(--fourth-text-color);
 }
+.subcribe-btn-icon{
+  margin-left: 10px;
+  fill: var(--fourth-text-color);
+}
+
 
 /* THE SAME ELEMENTS ↑ */
 
